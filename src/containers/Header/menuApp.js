@@ -19,7 +19,9 @@ export const adminMenu = [
             { 
                 name: 'menu.admin.manage-admin', link: '/system/user-admin'
             },
-            
+            { //quanly ke hoach kham bệnhcủa bs
+                name: 'menu.doctor.manage-schedule',link: '/doctor/manage-schedule'
+            },
         ]
     },
     { //quanlyn phong kham
@@ -52,4 +54,15 @@ export const adminMenu = [
             
         ]
     },
+    
+];
+export const doctorMenu = [
+    { 
+        name: 'menu.admin.manage-user',
+         menus: [
+            { //quanly ke hoach kham bệnhcủa bs
+                name: 'menu.doctor.manage-schedule', link: '/doctor/manage-schedule'
+            },
+        ]
+    }
 ];

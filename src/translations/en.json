@@ -37,6 +37,9 @@
             "handbook": "Handbooks",
             "manage-handbook": "Manage handbooks"
              
+        },
+        "doctor": {
+            "manage-schedule":"Manage Doctor's schedule"
         }
     },
     "manage-user": {
@@ -57,5 +60,56 @@
     "homepage": {
         "outstanding-doctor":"Prominent doctors of the week",
         "more-info":"More Information"
+    },
+    "manage-schedule": {
+        "title":"Manage doctors' plans",
+        "choose-doctor":"Choose a doctor",
+        "choose-date":"Choose a date",
+        "save":"Save plans"
+    },
+    "patient": {
+        "detail-doctor":{
+            "schedule":"Schedule plans",
+            "no-schedule":"This day has no appointments",
+            "choose":"Choose",
+            "book-free":"and book (free)"
+        },
+        "extra-infor-doctor":{
+            "text-address":"Address of examinations",
+            "price":"Examination price",
+            "detail":"See details",
+            "payment":"Patient can pay the cost in the form of:",
+            "hide-price":"Hide price list"
+        },
+        "booking-modal":{
+            "title":"Information to book an appoiment",
+            "fullName":"Fullname",
+            "phoneNumber":"Phone number",
+            "email":"Email",
+            "address":"Address ",
+            "reason":"Reasons for medical examinations",
+            "birthday":"Date of birth",
+            "gender":"Gender",
+            "btnConfirm":"Confirm",
+            "btnCancel":"Cancel",
+            "priceBooking":"Free booking",
+            "price":"Price"
+        }
+    },
+    "admin": {
+        "manage-doctor":{
+            "title":"Create more doctor's information",
+            "select-doctor":"Select doctor",
+            "intro":"Introduction:",
+            "add":"Create Information",
+            "save":"Save Information",
+            "price":"Price",
+            "payment":"Payment",
+            "province":"Province",
+            "nameClinic":"Clinic's name",
+            "addressClinic":"Clinic's address",
+            "note":"Note"
+        }
     }
+
 }
